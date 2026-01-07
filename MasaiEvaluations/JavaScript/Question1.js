@@ -4,6 +4,8 @@ async function fetchPostsWithComments() {
     fetch("https://jsonplaceholder.typicode.com/comments")
   ]);
 
+
+  
   const posts = await postsRes.json();
   const comments = await commentsRes.json();
 

@@ -29,6 +29,8 @@ function aggregateData(transactions) {
 }
 
 
+
+
 const transactions = [
   { id: 1, category: 'Food', amount: 45.5 },
   { id: 2, category: 'Transport', amount: 20 },
